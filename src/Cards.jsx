@@ -1,3 +1,5 @@
+import { faEye } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
@@ -9,7 +11,7 @@ export const Cards = ({items}) => {
         <Card.Text>
           {items.body}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary"><FontAwesomeIcon icon={faEye} /></Button>
       </Card.Body>
     </Card>
   );
