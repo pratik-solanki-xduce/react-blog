@@ -1,14 +1,13 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-export const Cards = () => {
+export const Cards = ({items}) => {
   return (
     <Card style={{ width: "18rem" }}>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{items.title}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {items.body}
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
