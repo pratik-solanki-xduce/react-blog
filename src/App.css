@@ -40,3 +40,35 @@
 .read-the-docs {
   color: #888;
 }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  padding: 3px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.row{
+  width:1320px;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.cardItems{
+  flex-basis: 23%;
+  background-color: aliceblue;
+  margin: 1%;
+  height: 200px;
+}
